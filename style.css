@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0e0e0e;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #000;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: gold;
+}
+
+.slot-machine {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.reel {
+  background: #000;
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: gold;
+  color: #000;
+  padding: 12px 25px;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#history {
+  text-align: left;
+  list-style: none;
+  margin-top: 15px;
+  font-size: 14px;
+  max-height: 120px;
+  overflow-y: auto;
+}
